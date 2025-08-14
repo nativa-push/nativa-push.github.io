@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Push Puppy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <audio id="audioLadrido" src="sounds/ladrido.mp3" preload="auto"></audio>
+
+    
+    <header>   
+        <div class="logo">
+            <img src="img/logo2.jpg" alt="Logo">
+        </div>
+        <div>
+            <img class="logo-text" src="img/logo_letras2.jpg" alt="Push Puppy">
+        </div>
+    </header>
+
+    <nav>
+        <div class="menu-principal">
+            <ul>
+                <li><a onclick="mostrarTodosMoldes()">Inicio</a></li>
+                <li>
+                    <a href="#">Moldes</a>
+                    <ul class="submenu">
+                        <li><a onclick="mostrarTipos('sacos')">Sacos</a></li>
+                        <li><a onclick="mostrarTipos('chompas')">Chompas</a></li>
+                        <li><a onclick="mostrarTipos('vestidos')">Vestidos</a></li>
+                        <li><a onclick="mostrarTipos('camisetas')">Camisetas</a></li>
+                        <li><a onclick="mostrarTipos('gorros')">Gorros</a></li>
+                        <li><a onclick="mostrarTipos('disfraces')">Disfraces</a></li>
+                        <li><a onclick="mostrarTipos('ponchos')">Ponchos</a></li>
+                        <li><a onclick="mostrarTipos('trajes')">Trajes</a></li>
+                        <li><a onclick="mostrarTipos('enterizos')">Enterizos</a></li>
+                        <li><a onclick="mostrarTipos('chalecos')">Chalecos</a></li>
+                        <li><a onclick="mostrarTipos('abrigos')">Abrigos</a></li>
+                    </ul>
+                </li>
+                <li><a onclick="mostrarSobreNosotros()">Sobre Nosotros</a></li>
+                <li><a onclick="mostrarTablaMedidas()">Tabla de Medidas</a></li>
+                <li><a onclick="mostrarContactanos()">Contáctanos</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="principal">
+        <section class="productos" id="moldes">
+            <div class="producto rosa" onclick="mostrarTipos('sacos')">
+                <img src="img/saco.jpg" alt="sacos">
+                <div>
+                    <h2>Sacos</h2>
+                    <p>Dale el mejor abrigo y el más lindo estilo</p>
+                </div>
+            </div>
+            <div class="producto celeste" onclick="mostrarTipos('chompas')">
+                <img src="img/chompa.jpg" alt="Chompas">
+                <div>
+                    <h2>Chompas</h2>
+                    <p>Diseños sencillos para paseos cotidianos</p>
+                </div>
+            </div>
+            <div class="producto rosa" onclick="mostrarTipos('vestidos')">
+                <img src="img/vestido.jpg" alt="Vestidos">
+                <div>
+                    <h2>Vestidos</h2>
+                    <p>Prendas con glamour para tu perrita</p>
+                </div>
+            </div>
+            <div class="producto celeste" onclick="mostrarTipos('camisetas')">
+                <img src="img/camiseta.jpg" alt="Camisetas">
+                <div>
+                    <h2>Camisetas</h2>
+                    <p>La ropa mas fresca para los días soleados</p>
+                </div>
+            </div>
+            <div class="producto rosa" onclick="mostrarTipos('gorros')">
+                <img src="img/gorra.jpg" alt="Gorros">
+                <div>
+                    <h2>Gorros</h2>
+                    <p>Protegelo de los rayos del sol</p>
+                </div>
+            </div>
+            <div class="producto celeste" onclick="mostrarTipos('disfraces')">
+                <img src="img/disfraces.jpg" alt="Disfraces">
+                <div>
+                    <h2>Disfraces</h2>
+                    <p>Una fiesta de locos en casa</p>
+                </div>
+            </div>
+            <div class="producto rosa" onclick="mostrarTipos('ponchos')">
+                <img src="img/ponchos.jpg" alt="Ponchos">
+                <div>
+                    <h2>Ponchos</h2>
+                    <p>Cubre a tu mascota del frio con estilo</p>
+                </div>
+            </div>
+            <div class="producto celeste" onclick="mostrarTipos('trajes')">
+                <img src="img/trajes.jpg" alt="Trajes">
+                <div>
+                    <h2>Trajes</h2>
+                    <p>Elegancia total en su caminar</p>
+                </div>
+            </div>
+            <div class="producto rosa" onclick="mostrarTipos('enterizos')">
+                <img src="img/enterizos.jpg" alt="Enterizos">
+                <div>
+                    <h2>Enterizos</h2>
+                    <p>La pijama perfecta para tu mascota</p>
+                </div>
+            </div>
+            <div class="producto celeste" onclick="mostrarTipos('chalecos')">
+                <img src="img/chalecos.jpg" alt="Chalecos">
+                <div>
+                    <h2>Chalecos</h2>
+                    <p>El mejor amigo del clima frio</p>
+                </div>
+            </div>
+            <div class="producto rosa" onclick="mostrarTipos('abrigos')">
+                <img src="img/abrigos.jpg" alt="Abrigos">
+                <div>
+                    <h2>Abrigos</h2>
+                    <p>Que nada impida salir a pasear</p>
+                </div>
+            </div>
+        </section>
+
+        <div id="detalleProducto"></div>
+        <div id="infoContainer"></div>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Push Puppy. Todos los derechos reservados.</p>
+        <!-- Enlaces a redes sociales con imágenes -->
+        <a href="https://www.facebook.com" target="_blank">
+            <img src="img/facebook.png" alt="Facebook" width="30" height="30">
+        </a>
+        <a href="https://www.instagram.com" target="_blank">
+            <img src="img/instagram.png" alt="Instagram" width="30" height="30">
+        </a>
+        <a href="https://www.youtube.com/@nativa-push" target="_blank">
+            <img src="img/youtube.png" alt="YouTube" width="30" height="30">
+        </a>
+        <a href="https://www.tiktok.com" target="_blank">
+            <img src="img/tiktok.png" alt="TikTok" width="30" height="30">
+        </a>
+        <a href="https://www.pinterest.com" target="_blank">
+            <img src="img/pinterest.png" alt="Pinterest" width="30" height="30">
+        </a>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

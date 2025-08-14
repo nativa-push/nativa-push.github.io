@@ -1,0 +1,571 @@
+/* ======================================
+ * Estilos Generales
+ * ======================================
+ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+body {
+    background-color: #f7f9fc;
+    color: #333;
+    line-height: 1.6;
+}
+
+/*
+ * ======================================
+ * Encabezado
+ * ======================================
+ */
+header {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.logo img {
+    height: 60px;
+    width: auto;
+}
+
+.logo-text {
+    height: 40px;
+    margin-left: 10px;
+    width: auto;
+}
+
+/*
+ * ======================================
+ * Barra de Navegación (Menú)
+ * ======================================
+ */
+nav {
+    background-color: rgba(212, 211, 255, 0.8);
+    padding: 10px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.menu-principal ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.menu-principal li {
+    position: relative;
+    margin: 0 5px;
+}
+
+.menu-principal li a {
+    color: rgb(0, 90, 94);
+    padding: 14px 20px;
+    text-decoration: none;
+    display: block;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.menu-principal li a:hover {
+    background-color: #ff914d;
+    color: white;
+}
+
+/*
+ * ======================================
+ * Submenú de Categorías
+ * ======================================
+ */
+.menu-principal .submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #daf2f3;
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    min-width: 220px;
+    z-index: 1200;
+}
+
+.menu-principal li:hover > .submenu {
+    display: block;
+}
+
+.menu-principal .submenu li {
+    padding: 6px 0;
+    margin: 0;
+}
+
+.menu-principal .submenu a {
+    padding: 6px 12px;
+    color: #232a4d;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.menu-principal .submenu a:hover {
+    background: rgba(0,0,0,0.03);
+    border-radius: 6px;
+}
+
+/*
+ * ======================================
+ * Secciones de Información y Productos
+ * ======================================
+ */
+.principal {
+    padding: 20px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+#infoContainer {
+    display: none;
+    max-width: 980px;
+    margin: 40px auto;
+    padding: 26px;
+    background: white;
+    border-radius: 18px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+}
+
+#infoContainer h2 {
+    color: #232a4d;
+    margin-bottom: 20px;
+}
+
+/*
+ * ======================================
+ * Galería de Productos (Recuadros)
+ * ======================================
+ */
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px 20px;
+}
+
+.producto {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    position: relative;
+}
+
+.producto:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.producto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+.producto div {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+}
+
+.producto.rosa div {
+    background-color: rgba(212, 211, 255, 0.8);
+    color: rgb(0, 90, 94);
+}
+
+.producto.celeste div {
+    background-color: rgba(246, 208, 255, 0.8);
+    color: rgb(0, 90, 94);
+}
+
+.producto h2 {
+    font-size: 1.25rem;
+    margin: 0;
+    text-align: center;
+}
+
+.producto p {
+    font-size: 0.85rem;
+    line-height: 1.2;
+    margin: 5px 0 0;
+    text-align: center;
+}
+
+/*
+ * ======================================
+ * Sección de Detalles de Productos
+ * ======================================
+ */
+#detalleProducto {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#detalleProducto-grid-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+@media (min-width: 768px) {
+    #detalleProducto-grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+}
+
+.modal-ficha-producto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.modal-ficha-izq {
+    width: 100%;
+    text-align: center;
+}
+
+.modal-img-principal {
+    width: 100%;
+    height: auto;
+    max-height: 600px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.modal-miniaturas {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.modal-miniatura {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease;
+}
+
+.modal-miniatura:hover {
+    border-color: #ff914d;
+}
+
+.modal-ficha-der {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.modal-ficha-der h2 {
+    font-size: 1.8rem;
+    color: #232a4d;
+    margin-bottom: 15px;
+}
+
+.modal-precio {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #ff914d;
+    margin-bottom: 20px;
+}
+
+.modal-tallas-texto {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.modal-tallas-lista {
+    font-size: 1.0em;
+    color: #555;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+/*
+ * ======================================
+ * Botones
+ * ======================================
+ */
+.volver-boton {
+    margin-top: 20px;
+    background-color: rgba(246, 208, 255, 0.8);
+    color: rgb(0, 90, 94);
+    border: none;
+    padding: 10px 30px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    align-self: flex-start;
+}
+
+.volver-boton:hover {
+    background-color: rgba(212, 211, 255, 0.8);
+    transform: translateY(-2px);
+}
+
+.modal-video,
+.modal-paypal-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 56px;
+    padding: 0;
+    margin: 10px auto;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-align: center;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+    border: none;
+    cursor: pointer;
+}
+
+.modal-video {
+    background-color: hwb(336 57% 9%);
+    color: #fff;
+}
+
+.modal-video:hover {
+    background-color: #ff914d;
+    transform: translateY(-2px);
+}
+
+.modal-paypal-btn {
+    background-color: #FFC439;
+    color: #111;
+}
+
+.modal-paypal-btn:hover {
+    background-color: #e6b233;
+    transform: translateY(-2px);
+}
+
+.modal-paypal-logo {
+    max-height: 32px;
+    width: auto;
+    display: block;
+    object-fit: contain;
+}
+
+.modal-desc {
+    margin-top: 20px;
+    line-height: 1.5;
+    color: #666;
+    text-align: left;
+    font-size: 1rem;
+}
+
+/*
+ * ======================================
+ * Pie de Página
+ * ======================================
+ */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(212, 211, 255, 0.8);
+    color: rgb(0, 90, 94);
+    margin-top: 40px;
+}
+
+footer p {
+    margin-bottom: 15px;
+}
+
+footer a {
+    color: rgb(0, 90, 94);
+    text-decoration: none;
+    margin: 0 10px;
+    transition: opacity 0.3s ease;
+}
+
+footer a:hover {
+    opacity: 0.8;
+}
+
+footer img {
+    vertical-align: middle;
+}
+
+/*
+ * ======================================
+ * Responsive Design
+ * ======================================
+ */
+@media (max-width: 768px) {
+    .menu-principal ul {
+        flex-direction: column;
+    }
+    
+    .menu-principal li {
+        width: 100%;
+    }
+    
+    .menu-principal .submenu {
+        position: static;
+        width: 100%;
+        box-shadow: none;
+    }
+    
+    .producto {
+        width: 100%;
+        max-width: 350px;
+    }
+    
+    #detalleProducto {
+        padding: 20px 10px;
+    }
+    
+    .modal-ficha-producto {
+        padding: 20px;
+    }
+    
+    .modal-ficha-der h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        flex-direction: column;
+        padding: 15px;
+    }
+    
+    .logo-text {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    
+    .modal-video,
+    .modal-paypal-btn {
+        width: 100%;
+    }
+}
+
+/* ===================================================
+   STYLES ADDED: botón transferencia + contenedor info
+   =================================================== */
+
+/* Botón transferencia (visual igual al de PayPal: amarillo) */
+.modal-transferencia-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 56px;
+    padding: 0;
+    margin: 10px auto;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-align: center;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+    border: none;
+    cursor: pointer;
+    background-color: #FFC439;
+    color: #111;
+}
+
+.modal-transferencia-btn:hover {
+    background-color: #e6b233;
+    transform: translateY(-2px);
+}
+
+/* Contenedor que se muestra/oculta debajo del botón */
+.transferencia-info {
+    background: linear-gradient(180deg, #fffaf0 0%, #fff2da 100%);
+    border: 1px solid rgba(255, 196, 77, 0.35);
+    padding: 14px;
+    margin: 8px auto 0 auto;
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.05);
+    color: #333;
+    text-align: left;
+}
+
+.transferencia-info p {
+    margin: 8px 0;
+    font-size: 0.98rem;
+    line-height: 1.4;
+}
+
+.transferencia-info a {
+    display: inline-block;
+    margin-top: 8px;
+    padding: 8px 12px;
+    background: #25d366;
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.transferencia-info a:hover {
+    background: #1ebe5d;
+}
+.titulo-pagos, .titulo-video {
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+    font-size: 1rem;
+}
