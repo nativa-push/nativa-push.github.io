@@ -411,15 +411,15 @@ function mostrarTipos(productoId) {
 
                     <!-- BOTÓN TRANSFERENCIA AÑADIDO: despliega info justo debajo -->
                     <button id="transferBtn-${productoId}-${index}" class="modal-transferencia-btn" type="button" onclick="toggleTransferenciaInfo('${productoId}', ${index})">
-                        Transferencia Banco Pichincha
+                        Transferencia Banco Pichincha Ecuador
                     </button>
 
                     <div id="transferInfo-${productoId}-${index}" class="transferencia-info" style="display:none;">
-                        <p><strong>Nombre:</strong> Lourdes Esmeraldas González Mdina</p>
+                        <p><strong>Nombre:</strong> Lourdes Esmeraldas González Medina</p>
                         <p><strong>Número de cédula:</strong> 0801047556</p>
                         <p><strong>Cuenta ahorro:</strong> 2205710105</p>
                         <p><strong>Correo:</strong> pusch...com</p>
-                        <p><strong>Compartir comprobante y modelo al WhatsApp:</strong> 0980057215</p>
+                        <p><strong>Compartir comprobante y modelo de prenda al WhatsApp:</strong> 0980057215</p>
                         <a href="https://api.whatsapp.com/send?phone=593980057215&text=${encodeURIComponent('Hola, envío comprobante y el modelo que deseo.')}" target="_blank" rel="noopener noreferrer">Enviar WhatsApp</a>
                     </div>
                     <!-- FIN BOTÓN TRANSFERENCIA -->
