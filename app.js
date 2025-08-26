@@ -15,27 +15,27 @@ const productos = {
             item_name: "Molde de Sacos - Modelo A", // Nombre del producto para el pago.
             amount: "8.5" // Precio del producto.
         }
-    }, {
-        nombre: "Molde de Sacos - Modelo B",
-        img: ["img/sacos_modelo_b_1.jpg", "img/sacos_modelo_b_2.jpg"],
-        desc: "Descripción detallada del Modelo B, un diseño elegante con botones y detalles únicos.",
-        video: "https://www.youtube.com/watch?v=video_modelo_b",
-        pago: {
-            action: "#",
-            item_name: "Molde de Sacos - Modelo B",
-            amount: "6.50"
-        }
-    }, {
-        nombre: "Molde de Sacos - Modelo C",
-        img: ["img/sacos_modelo_c_1.jpg"],
-        desc: "Descripción detallada del Modelo C, con capucha y un look más casual para el día a día.",
-        video: "https://www.youtube.com/watch?v=video_modelo_c",
-        pago: {
-            action: "#",
-            item_name: "Molde de Sacos - Modelo C",
-            amount: "7.00"
-        }
-    }],
+    }/*, {
+    nombre: "Molde de Sacos - Modelo B",
+    img: ["img/sacos_modelo_b_1.jpg", "img/sacos_modelo_b_2.jpg"],
+    desc: "Descripción detallada del Modelo B...",
+    video: "...",
+    pago: {
+        action: "#",
+        item_name: "Molde de Sacos - Modelo B",
+        amount: "6.50"
+    }
+}, {
+    nombre: "Molde de Sacos - Modelo C",
+    img: ["img/sacos_modelo_c_1.jpg"],
+    desc: "Descripción detallada del Modelo C...",
+    video: "...",
+    pago: {
+        action: "#",
+        item_name: "Molde de Sacos - Modelo C",
+        amount: "7.00"
+    }
+} */],
     // Array para los productos de la categoría 'chompas'.
     chompas: [{
         nombre: "Molde de Chompas - Modelo 1",
