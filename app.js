@@ -2,7 +2,7 @@
 // Se organiza por categoría (sacos, chompas, etc.) y cada categoría es un array de productos.
 const productos = {
     // Array para los productos de la categoría 'sacos'.
-    Camisetas: [{
+    camiseta: [{
         nombre: "Molde de Camiseta - Modelo A",
         // Array de URLs de imágenes para el producto, incluyendo miniaturas.
         img: ["img/chompa.jpg", "img/vestido.jpg"],
