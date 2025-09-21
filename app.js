@@ -12,8 +12,8 @@ const productos = {
         // Objeto con la configuración para el botón de pago (ej. PayPal).
         pago: {
             action: "https://www.paypal.com/ncp/payment/ZWESEN2AYW4P8", // URL del formulario de pago.
-            item_name: "Molde de Sacos - Modelo A", // Nombre del producto para el pago.
-            amount: "8.5" // Precio del producto.
+            item_name: "Camiseta Básica, con corbatín - Modelo A", // Nombre del producto para el pago.
+            amount: "4.75" // Precio del producto.
         }
     }/*, {
     nombre: "Molde de Sacos - Modelo B",
