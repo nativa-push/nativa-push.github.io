@@ -8,7 +8,7 @@ const productos = {
         img: ["img/chompa.jpg", "img/vestido.jpg"],
         desc: "Descripción detallada del Modelo A, con sus características principales y un estilo funcional.",
         // URL del video de YouTube que muestra la confección.
-        video: "https://youtu.be/dlGSlN5rvR0",
+        video: "https://www.youtube.com/",
         // Objeto con la configuración para el botón de pago (ej. PayPal).
         pago: {
             action: "https://www.paypal.com/ncp/payment/ZWESEN2AYW4P8", // URL del formulario de pago.
