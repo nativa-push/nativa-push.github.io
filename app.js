@@ -418,9 +418,9 @@ function mostrarTipos(productoId) {
                         <p><strong>Nombre:</strong> Lourdes Esmeraldas González Medina</p>
                         <p><strong>Número de cédula:</strong> 0801047556</p>
                         <p><strong>Cuenta ahorro:</strong> 2205710105</p>
-                        <p><strong>Correo:</strong> pusch...com</p>
-                        <p><strong>Compartir comprobante y modelo de prenda al WhatsApp:</strong> 0980057215</p>
-                        <a href="https://api.whatsapp.com/send?phone=593980057215&text=${encodeURIComponent('Hola, envío comprobante y el modelo que deseo.')}" target="_blank" rel="noopener noreferrer">Enviar WhatsApp</a>
+                        <p><strong>Correo:</strong> nativa.push@gmail.com</p>
+                        <p><strong>Compartir comprobante y modelo de prenda al WhatsApp:</strong> 0964165506</p>
+                        <a href="https://api.whatsapp.com/send?phone=593964165506&text=${encodeURIComponent('Hola, envío comprobante y el modelo que deseo.')}" target="_blank" rel="noopener noreferrer">Enviar WhatsApp</a>
                     </div>
                     <!-- FIN BOTÓN TRANSFERENCIA -->
                     <p class="titulo-video">Video de confección:</p>
