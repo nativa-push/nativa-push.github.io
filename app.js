@@ -318,11 +318,11 @@ function crearFichaProducto(producto) {
             <div class="modal-desc">${producto.descripcion}</div>
             <div class="modal-tallas-texto">Tallas disponibles:</div>
             <div class="modal-tallas-lista">${producto.tallas.join(', ')}</div>
-            <div class="titulo-video">Ver Video (Youtube)</div>
-            <a href="${producto.video}" class="modal-video" target="_blank" onclick="fbq('track', 'watch_video', {content_name: '${producto.nombre}'});">
-                <img src="./img/logo_youtube.png" alt="Youtube" width="24" height="24">
-                <span> Ver Instrucciones</span>
+            
+            <div class="titulo-video"></div> <a href="${producto.video}" class="modal-video" target="_blank" onclick="fbq('track', 'watch_video', {content_name: '${producto.nombre}'});">
+                <img src="./img/logo_youtube.png" alt="Youtube" class="modal-youtube-logo">
             </a>
+
             <div class="titulo-pagos">Formas de Pago</div>
             <a href="${producto.paypalLink}" class="modal-paypal-btn" target="_blank" onclick="fbq('track', 'AddToCart', {content_name: '${producto.nombre}', value: '${producto.precio}', currency: 'USD'}); gtag('event', 'add_to_cart', { 'currency': 'USD', 'value': ${producto.precio}, 'items': [{ 'item_name': '${producto.nombre}', 'item_id': '${producto.id}' }] });">
                 <img src="./img/logo_paypal.png" alt="Pagar con PayPal" class="modal-paypal-logo">
