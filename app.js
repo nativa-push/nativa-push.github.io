@@ -429,18 +429,17 @@ const body = document.body;
  * ======================================
  */
 function mostrarTodosMoldes() {
-    // Limpiar contenedores
+    // Limpiar y mostrar el contenedor principal de moldes
     moldesContainer.innerHTML = '';
-    detalleProductoContainer.innerHTML = '';
-    infoContainer.innerHTML = '';
-    
-    // Ocultar contenedores de información
     moldesContainer.style.display = 'flex';
-    detalleProductoContainer.style.display = 'none';
-    infoContainer.style.display = 'none';
     
+    // Ocultar los otros contenedores
+    detalleProductoContainer.innerHTML = '';
+    detalleProductoContainer.style.display = 'none';
+    infoContainer.innerHTML = '';
+    infoContainer.style.display = 'none';
 
-    // Recorrer cada tipo de molde en la base de datos
+    // Recorrer cada tipo de molde y crear las tarjetas de producto
     for (const tipo in datos.moldes) {
         const primerProducto = datos.moldes[tipo][0];
         if (primerProducto) {
@@ -466,10 +465,14 @@ function mostrarTodosMoldes() {
 
 
 function mostrarTipos(tipo) {
+    // Ocultar los otros contenedores
     moldesContainer.style.display = 'none';
     infoContainer.style.display = 'none';
-    detalleProductoContainer.style.display = 'grid'; // Asegúrate de mostrar este contenedor
+
+    // Limpiar y mostrar el contenedor de detalles de producto
     detalleProductoContainer.innerHTML = '';
+    detalleProductoContainer.style.display = 'block';
+    
     const productosDelTipo = datos.moldes[tipo];
 
     if (productosDelTipo) {
@@ -556,10 +559,13 @@ function toggleTransferenciaInfo(button) {
 }
 
 function mostrarContenidoInfo(htmlContent) {
+    // Ocultar los otros contenedores
     moldesContainer.style.display = 'none';
     detalleProductoContainer.style.display = 'none';
-    infoContainer.style.display = 'block';
+
+    // Limpiar y mostrar el contenedor de información general
     infoContainer.innerHTML = htmlContent;
+    infoContainer.style.display = 'block';
 }
 
 function mostrarSobreNosotros() {
@@ -601,7 +607,7 @@ function obtenerDescripcionCorta(tipo) {
 
 // Inicializar la página
 document.addEventListener('DOMContentLoaded', () => {
-    // La función mostrarTodosMoldes() ya se encarga de mostrar los productos correctos.
-    // Solo la llamamos para inicializar la página en la vista de moldes.
+    // La función mostrarTodosMoldes() se llama directamente para cargar el contenido
+    // una vez que el DOM esté listo.
     mostrarTodosMoldes();
 });
