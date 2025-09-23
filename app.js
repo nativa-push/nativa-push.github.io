@@ -319,13 +319,13 @@ function crearFichaProducto(producto) {
             <div class="modal-tallas-texto">Tallas disponibles:</div>
             <div class="modal-tallas-lista">${producto.tallas.join(', ')}</div>
 
-            <!-- BOTONES -->
-            <div class="titulo-pagos">Formas de Pago</div>
-
-            <!-- Botón YouTube -->
+            <!-- Botón YouTube: fuera de Formas de Pago -->
             <a href="${producto.video}" class="modal-video" target="_blank" onclick="fbq('track', 'watch_video', {content_name: '${producto.nombre}'});">
                 <img src="./img/logo_youtube_blanco.png" alt="Youtube" class="modal-youtube-logo">
             </a>
+
+            <!-- Formas de Pago -->
+            <div class="titulo-pagos">Formas de Pago</div>
 
             <!-- Botón PayPal -->
             <a href="${producto.paypalLink}" class="modal-paypal-btn" target="_blank" onclick="fbq('track', 'AddToCart', {content_name: '${producto.nombre}', value: '${producto.precio}', currency: 'USD'}); gtag('event', 'add_to_cart', { 'currency': 'USD', 'value': ${producto.precio}, 'items': [{ 'item_name': '${producto.nombre}', 'item_id': '${producto.id}' }] });">
