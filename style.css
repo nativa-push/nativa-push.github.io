@@ -319,6 +319,14 @@ nav {
     margin-bottom: 20px;
 }
 
+.modal-desc {
+    margin-top: 20px;
+    line-height: 1.5;
+    color: #666;
+    text-align: left;
+    font-size: 1rem;
+}
+
 .modal-tallas-texto {
     font-size: 1.1em;
     font-weight: bold;
@@ -336,7 +344,7 @@ nav {
 
 /*
  * ======================================
- * Botones
+ * Botones y Logos
  * ======================================
  */
 .volver-boton {
@@ -359,7 +367,8 @@ nav {
 }
 
 .modal-video,
-.modal-paypal-btn {
+.modal-paypal-btn,
+.modal-transferencia-btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -379,12 +388,12 @@ nav {
 }
 
 .modal-video {
-    background-color: #ff0000;  /*Color rojo de youtube*/
-    color: #fff;
+    background-color: #ff0000;
+    color: white;
 }
 
 .modal-video:hover {
-    background-color: #ff914d;
+    background-color: #cc0000;
     transform: translateY(-2px);
 }
 
@@ -398,19 +407,69 @@ nav {
     transform: translateY(-2px);
 }
 
-.modal-paypal-logo {
-    max-height: 30px;
+.modal-youtube-logo {
+    max-height: 50px;
     width: auto;
-    display: block;
     object-fit: contain;
 }
 
-.modal-desc {
-    margin-top: 20px;
-    line-height: 1.5;
-    color: #666;
-    text-align: left;
+.modal-paypal-logo {
+    max-height: 32px;
+    width: auto;
+    object-fit: contain;
+}
+
+.modal-transferencia-btn {
+    background-color: #FFC439;
+    color: #111;
+}
+
+.modal-transferencia-btn:hover {
+    background-color: #e6b233;
+    transform: translateY(-2px);
+}
+
+.titulo-pagos, .titulo-video {
+    font-weight: bold;
+    margin: 10px 0 5px 0;
     font-size: 1rem;
+}
+
+/* ===================================================
+   STYLES ADDED: contenedor info
+   =================================================== */
+
+.transferencia-info {
+    background: linear-gradient(180deg, #fffaf0 0%, #fff2da 100%);
+    border: 1px solid rgba(255, 196, 77, 0.35);
+    padding: 14px;
+    margin: 8px auto 0 auto;
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.05);
+    color: #333;
+    text-align: left;
+}
+
+.transferencia-info p {
+    margin: 8px 0;
+    font-size: 0.98rem;
+    line-height: 1.4;
+}
+
+.transferencia-info a {
+    display: inline-block;
+    margin-top: 8px;
+    padding: 8px 12px;
+    background: #25d366;
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.transferencia-info a:hover {
+    background: #1ebe5d;
 }
 
 /*
@@ -498,79 +557,4 @@ footer img {
     .modal-paypal-btn {
         width: 100%;
     }
-}
-
-/* ===================================================
-   STYLES ADDED: botón transferencia + contenedor info
-   =================================================== */
-
-/* Botón transferencia (visual igual al de PayPal: amarillo) */
-.modal-transferencia-btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 80%;
-    height: 56px;
-    padding: 0;
-    margin: 10px auto;
-    border-radius: 8px;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1.1rem;
-    text-align: center;
-    transition: all 0.3s ease;
-    box-sizing: border-box;
-    border: none;
-    cursor: pointer;
-    background-color: #FFC439;
-    color: #111;
-}
-
-.modal-transferencia-btn:hover {
-    background-color: #e6b233;
-    transform: translateY(-2px);
-}
-
-/* Contenedor que se muestra/oculta debajo del botón */
-.transferencia-info {
-    background: linear-gradient(180deg, #fffaf0 0%, #fff2da 100%);
-    border: 1px solid rgba(255, 196, 77, 0.35);
-    padding: 14px;
-    margin: 8px auto 0 auto;
-    width: 90%;
-    border-radius: 10px;
-    box-shadow: 0 6px 18px rgba(0,0,0,0.05);
-    color: #333;
-    text-align: left;
-}
-
-.transferencia-info p {
-    margin: 8px 0;
-    font-size: 0.98rem;
-    line-height: 1.4;
-}
-
-.transferencia-info a {
-    display: inline-block;
-    margin-top: 8px;
-    padding: 8px 12px;
-    background: #25d366;
-    color: #fff;
-    border-radius: 8px;
-    text-decoration: none;
-    font-weight: 600;
-}
-
-.transferencia-info a:hover {
-    background: #1ebe5d;
-}
-.titulo-pagos, .titulo-video {
-    font-weight: bold;
-    margin: 10px 0 5px 0;
-    font-size: 1rem;
-}
-.modal-youtube-logo {
-    width: 140px; /* Puedes ajustar este valor si quieres un tamaño diferente */
-    height: auto;
-    vertical-align: middle;
 }
