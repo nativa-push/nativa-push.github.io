@@ -409,7 +409,17 @@ nav {
     transform: translateY(-2px);
 }
 
-/* Nuevos estilos para los logos */
+/* Oculta el texto del botón de transferencia para mostrar solo el logo */
+.modal-transferencia-btn span {
+    display: none;
+}
+
+/* Estilos para los logos */
+.modal-youtube-logo,
+.modal-paypal-logo {
+    margin-right: 8px; /* Espacio entre el logo y el texto */
+}
+
 .modal-youtube-logo {
     max-height: 50px;
     width: auto;
@@ -422,10 +432,8 @@ nav {
     object-fit: contain;
 }
 
-/* MODIFICACIÓN CLAVE AQUÍ: */
-.modal-transferencia-btn .modal-bancopichincha-logo {
-    max-height: 45px; /* Ajusta este valor si necesitas que el logo sea más grande o pequeño */
-    max-width: 170px; /* Ajusta este valor si necesitas que el logo sea más ancho o estrecho */
+.modal-bancopichincha-logo {
+    max-height: 45px;
     width: auto;
     object-fit: contain;
 }
