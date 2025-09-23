@@ -12,7 +12,7 @@ const datos = {
                 descripcion: 'Saco con capucha, un diseño ideal para proteger a tu mascota del frío y la lluvia. Confeccionado con tela polar y acabados de alta calidad para un ajuste cómodo. Ideal para un perro o un gato.',
                 tallas: ['XS', 'S', 'M', 'L', 'XL'],
                 video: 'https://youtu.be/zD1kX_3Bq1k',
-                imagenes: ['./img/sacos/saco1.jpg', './img/sacos/saco1_1.jpg', './img/sacos/saco1_2.jpg'],
+                imagenes: ['./img/saco.jpg', './img/saco.jpg', './img/saco.jpg'],
                 paypalLink: 'https://paypal.me/pushpuppy/5.99usd',
             },
             {
@@ -22,7 +22,7 @@ const datos = {
                 descripcion: 'Saco ideal para paseos cotidianos, ofrece comodidad y estilo. Fácil de poner y quitar, con un diseño que se adapta a cualquier raza de perro.',
                 tallas: ['XS', 'S', 'M', 'L', 'XL'],
                 video: 'https://youtu.be/zD1kX_3Bq1k',
-                imagenes: ['./img/sacos/saco2.jpg', './img/sacos/saco2_1.jpg', './img/sacos/saco2_2.jpg'],
+                imagenes: ['./img/saco.jpg', './img/saco.jpg', './img/saco.jpg'],
                 paypalLink: 'https://paypal.me/pushpuppy/5.99usd',
             },
             {
@@ -32,7 +32,7 @@ const datos = {
                 descripcion: 'Saco suave y abrigador, perfecto para mantener a tu mascota calientita en los días fríos. Su forro de peluche proporciona una sensación de confort inigualable.',
                 tallas: ['XS', 'S', 'M', 'L', 'XL'],
                 video: 'https://youtu.be/zD1kX_3Bq1k',
-                imagenes: ['./img/sacos/saco3.jpg', './img/sacos/saco3_1.jpg', './img/sacos/saco3_2.jpg'],
+                imagenes: ['./img/saco.jpg', './img/saco.jpg', './img/saco.jpg'],
                 paypalLink: 'https://paypal.me/pushpuppy/5.99usd',
             },
             {
@@ -42,7 +42,7 @@ const datos = {
                 descripcion: 'Un diseño clásico y elegante con rayas, ideal para cualquier ocasión. Hecho de un material ligero pero cálido, perfecto para el entretiempo.',
                 tallas: ['XS', 'S', 'M', 'L', 'XL'],
                 video: 'https://youtu.be/zD1kX_3Bq1k',
-                imagenes: ['./img/sacos/saco4.jpg', './img/sacos/saco4_1.jpg', './img/sacos/saco4_2.jpg'],
+                imagenes: ['./img/saco.jpg', './img/saco.jpg', './img/saco.jpg'],
                 paypalLink: 'https://paypal.me/pushpuppy/5.99usd',
             },
             {
@@ -52,7 +52,7 @@ const datos = {
                 descripcion: 'Un saco exclusivo con detalles únicos, para que tu mascota destaque. Confeccionado con materiales de alta gama para una durabilidad y elegancia superiores.',
                 tallas: ['XS', 'S', 'M', 'L', 'XL'],
                 video: 'https://youtu.be/zD1kX_3Bq1k',
-                imagenes: ['./img/sacos/saco5.jpg', './img/sacos/saco5_1.jpg', './img/sacos/saco5_2.jpg'],
+                imagenes: ['./img/saco.jpg', './img/saco.jpg', './img/saco.jpg'],
                 paypalLink: 'https://paypal.me/pushpuppy/5.99usd',
             },
             {
@@ -62,7 +62,7 @@ const datos = {
                 descripcion: 'Hecho de lana para una máxima calidez. Este saco es la elección perfecta para los inviernos más duros, manteniendo a tu mascota abrigada y cómoda.',
                 tallas: ['XS', 'S', 'M', 'L', 'XL'],
                 video: 'https://youtu.be/zD1kX_3Bq1k',
-                imagenes: ['./img/sacos/saco6.jpg', './img/sacos/saco6_1.jpg', './img/sacos/saco6_2.jpg'],
+                imagenes: ['./img/saco.jpg', './img/saco.jpg', './img/saco.jpg'],
                 paypalLink: 'https://paypal.me/pushpuppy/5.99usd',
             }
         ],
@@ -74,7 +74,7 @@ const datos = {
                 descripcion: 'Chompa con cuello de tortuga, perfecta para mantener a tu mascota elegante y abrigada en cualquier estación. Su diseño permite total libertad de movimiento.',
                 tallas: ['XS', 'S', 'M', 'L', 'XL'],
                 video: 'https://youtu.be/zD1kX_3Bq1k',
-                imagenes: ['./img/chompas/chompa1.jpg', './img/chompas/chompa1_1.jpg', './img/chompas/chompa1_2.jpg'],
+                imagenes: ['./img/chompa.jpg', './img/chompa.jpg', './img/chompa.jpg'],
                 paypalLink: 'https://paypal.me/pushpuppy/5.99usd',
             },
             {
@@ -84,7 +84,7 @@ const datos = {
                 descripcion: 'Un clásico que nunca falla, ideal para cualquier raza de perro o gato. Ligera y suave, ideal para usarla en el interior de la casa.',
                 tallas: ['XS', 'S', 'M', 'L', 'XL'],
                 video: 'https://youtu.be/zD1kX_3Bq1k',
-                imagenes: ['./img/chompas/chompa2.jpg', './img/chompas/chompa2_1.jpg', './img/chompas/chompa2_2.jpg'],
+                imagenes: ['./img/chompa.jpg', './img/chompa.jpg', './img/chompa.jpg'],
                 paypalLink: 'https://paypal.me/pushpuppy/5.99usd',
             },
             {
@@ -94,7 +94,7 @@ const datos = {
                 descripcion: 'Esta chompa con capucha es perfecta para razas grandes como el Pastor Alemán. El diseño de camuflaje lo hace ver imponente. Su diseño permite total libertad de movimiento.',
                 tallas: ['L', 'XL', 'XXL'],
                 video: 'https://youtu.be/zD1kX_3Bq1k',
-                imagenes: ['./img/chompas/chompa3.jpg', './img/chompas/chompa3_1.jpg', './img/chompas/chompa3_2.jpg'],
+                imagenes: ['./img/chompa.jpg', './img/chompa.jpg', './img/chompa.jpg'],
                 paypalLink: 'https://paypal.me/pushpuppy/5.99usd',
             },
             {
@@ -104,7 +104,7 @@ const datos = {
                 descripcion: 'Un estilo a cuadros para un look sofisticado. Ligera y suave, ideal para usarla en el interior de la casa y en las noches de fogata.',
                 tallas: ['XS', 'S', 'M', 'L', 'XL'],
                 video: 'https://youtu.be/zD1kX_3Bq1k',
-                imagenes: ['./img/chompas/chompa4.jpg', './img/chompas/chompa4_1.jpg', './img/chompas/chompa4_2.jpg'],
+                imagenes: ['./img/chompa.jpg', './img/chompa.jpg', './img/chompa.jpg'],
                 paypalLink: 'https://paypal.me/pushpuppy/5.99usd',
             },
             {
@@ -114,7 +114,7 @@ const datos = {
                 descripcion: 'Chompa con cuello de tortuga, perfecta para mantener a tu gato elegante y abrigado en cualquier estación. El diseño permite total libertad de movimiento.',
                 tallas: ['XS', 'S', 'M'],
                 video: 'https://youtu.be/zD1kX_3Bq1k',
-                imagenes: ['./img/chompas/chompa5.jpg', './img/chompas/chompa5_1.jpg', './img/chompas/chompa5_2.jpg'],
+                imagenes: ['./img/chompa.jpg', './img/chompa.jpg', './img/chompa.jpg'],
                 paypalLink: 'https://paypal.me/pushpuppy/5.99usd',
             }
         ],
@@ -126,7 +126,7 @@ const datos = {
                 descripcion: 'Vestido elegante y fresco con un diseño de flores, ideal para los días de verano. Tu perrita lucirá hermosa y cómoda.',
                 tallas: ['XS', 'S', 'M', 'L', 'XL'],
                 video: 'https://youtu.be/zD1kX_3Bq1k',
-                imagenes: ['./img/vestidos/vestido1.jpg', './img/vestidos/vestido1_1.jpg', './img/vestidos/vestido1_2.jpg'],
+                imagenes: ['./img/vestido.jpg', './img/vestido.jpg', './img/vestido.jpg'],
                 paypalLink: 'https://paypal.me/pushpuppy/5.99usd',
             },
             {
@@ -136,7 +136,7 @@ const datos = {
                 descripcion: 'Un vestido diseñado para ocasiones especiales. Dale a tu perrita el glamour que se merece para cualquier fiesta o evento formal. ¡Elegancia total en su caminar!',
                 tallas: ['XS', 'S', 'M', 'L', 'XL'],
                 video: 'https://youtu.be/zD1kX_3Bq1k',
-                imagenes: ['./img/vestidos/vestido2.jpg', './img/vestidos/vestido2_1.jpg', './img/vestidos/vestido2_2.jpg'],
+                imagenes: ['./img/vestido.jpg', './img/vestido.jpg', './img/vestido.jpg'],
                 paypalLink: 'https://paypal.me/pushpuppy/5.99usd',
             },
             {
@@ -146,7 +146,7 @@ const datos = {
                 descripcion: 'Un vestido fresco con un diseño a rayas que nunca pasa de moda. Ideal para paseos en el parque y días soleados.',
                 tallas: ['XS', 'S', 'M', 'L', 'XL'],
                 video: 'https://youtu.be/zD1kX_3Bq1k',
-                imagenes: ['./img/vestidos/vestido3.jpg', './img/vestidos/vestido3_1.jpg', './img/vestidos/vestido3_2.jpg'],
+                imagenes: ['./img/vestido.jpg', './img/vestido.jpg', './img/vestido.jpg'],
                 paypalLink: 'https://paypal.me/pushpuppy/5.99usd',
             },
         ],
@@ -158,7 +158,7 @@ const datos = {
                 descripcion: 'Camiseta suave y ligera, ideal para los días calurosos. Permite que tu mascota se sienta cómoda y fresca durante todo el día.',
                 tallas: ['XS', 'S', 'M', 'L', 'XL'],
                 video: 'https://youtu.be/zD1kX_3Bq1k',
-                imagenes: ['./img/camisetas/camiseta1.jpg', './img/camisetas/camiseta1_1.jpg', './img/camisetas/camiseta1_2.jpg'],
+                imagenes: ['./img/camiseta.jpg', './img/camiseta.jpg', './img/camiseta.jpg'],
                 paypalLink: 'https://paypal.me/pushpuppy/5.99usd',
             },
             {
@@ -168,7 +168,7 @@ const datos = {
                 descripcion: 'La ropa más fresca para los días soleados. Esta camiseta es perfecta para un día de playa o un paseo en el parque.',
                 tallas: ['XS', 'S', 'M', 'L', 'XL'],
                 video: 'https://youtu.be/zD1kX_3Bq1k',
-                imagenes: ['./img/camisetas/camiseta2.jpg', './img/camisetas/camiseta2_1.jpg', './img/camisetas/camiseta2_2.jpg'],
+                imagenes: ['./img/camiseta.jpg', './img/camiseta.jpg', './img/camiseta.jpg'],
                 paypalLink: 'https://paypal.me/pushpuppy/5.99usd',
             }
         ],
@@ -180,7 +180,7 @@ const datos = {
                 descripcion: 'Un gorro cálido y cómodo para proteger a tu mascota del frío extremo. Perfecto para los paseos de invierno.',
                 tallas: ['XS', 'S', 'M', 'L', 'XL'],
                 video: 'https://youtu.be/zD1kX_3Bq1k',
-                imagenes: ['./img/gorros/gorro1.jpg', './img/gorros/gorro1_1.jpg', './img/gorros/gorro1_2.jpg'],
+                imagenes: ['./img/gorra.jpg', './img/gorra.jpg', './img/gorra.jpg'],
                 paypalLink: 'https://paypal.me/pushpuppy/5.99usd',
             },
             {
@@ -190,7 +190,7 @@ const datos = {
                 descripcion: 'Gorro ligero para proteger a tu mascota de los rayos del sol en los días de calor. Confeccionado con tela de algodón para mayor comodidad.',
                 tallas: ['XS', 'S', 'M', 'L', 'XL'],
                 video: 'https://youtu.be/zD1kX_3Bq1k',
-                imagenes: ['./img/gorros/gorro2.jpg', './img/gorros/gorro2_1.jpg', './img/gorros/gorro2_2.jpg'],
+                imagenes: ['./img/gorra.jpg', './img/gorra.jpg', './img/gorra.jpg'],
                 paypalLink: 'https://paypal.me/pushpuppy/5.99usd',
             }
         ],
@@ -202,7 +202,7 @@ const datos = {
                 descripcion: 'Disfraz divertido y colorido para que tu mascota sea la estrella en Halloween o cualquier fiesta de disfraces. Un disfraz de locos en casa.',
                 tallas: ['XS', 'S', 'M', 'L', 'XL'],
                 video: 'https://youtu.be/zD1kX_3Bq1k',
-                imagenes: ['./img/disfraces/disfraz1.jpg', './img/disfraces/disfraz1_1.jpg', './img/disfraces/disfraz1_2.jpg'],
+                imagenes: ['./img/disfraces.jpg', './img/disfraces.jpg', './img/disfraces.jpg'],
                 paypalLink: 'https://paypal.me/pushpuppy/5.99usd',
             },
             {
@@ -212,7 +212,7 @@ const datos = {
                 descripcion: 'Un disfraz original y gracioso para que tu mascota se vea como un pequeño dinosaurio. Perfecto para un perrito o un gato.',
                 tallas: ['XS', 'S', 'M', 'L', 'XL'],
                 video: 'https://youtu.be/zD1kX_3Bq1k',
-                imagenes: ['./img/disfraces/disfraz2.jpg', './img/disfraces/disfraz2_1.jpg', './img/disfraces/disfraz2_2.jpg'],
+                imagenes: ['./img/disfraces.jpg', './img/disfraces.jpg', './img/disfraces.jpg'],
                 paypalLink: 'https://paypal.me/pushpuppy/5.99usd',
             }
         ],
@@ -224,7 +224,7 @@ const datos = {
                 descripcion: 'Poncho artesanal de lana, perfecto para proteger a tu mascota del frío con estilo. Su diseño tradicional lo hace único y muy confortable.',
                 tallas: ['XS', 'S', 'M', 'L', 'XL'],
                 video: 'https://youtu.be/zD1kX_3Bq1k',
-                imagenes: ['./img/ponchos/poncho1.jpg', './img/ponchos/poncho1_1.jpg', './img/ponchos/poncho1_2.jpg'],
+                imagenes: ['./img/ponchos.jpg', './img/ponchos.jpg', './img/ponchos.jpg'],
                 paypalLink: 'https://paypal.me/pushpuppy/5.99usd',
             },
             {
@@ -234,7 +234,7 @@ const datos = {
                 descripcion: 'Cubre a tu mascota del frío con estilo. Este poncho con capucha es ideal para paseos en días de lluvia o viento.',
                 tallas: ['XS', 'S', 'M', 'L', 'XL'],
                 video: 'https://youtu.be/zD1kX_3Bq1k',
-                imagenes: ['./img/ponchos/poncho2.jpg', './img/ponchos/poncho2_1.jpg', './img/ponchos/poncho2_2.jpg'],
+                imagenes: ['./img/ponchos.jpg', './img/ponchos.jpg', './img/ponchos.jpg'],
                 paypalLink: 'https://paypal.me/pushpuppy/5.99usd',
             }
         ],
@@ -246,7 +246,7 @@ const datos = {
                 descripcion: 'Traje de etiqueta para las ocasiones más formales. Con este traje, tu mascota lucirá elegante y distinguida en bodas o eventos importantes.',
                 tallas: ['XS', 'S', 'M', 'L', 'XL'],
                 video: 'https://youtu.be/zD1kX_3Bq1k',
-                imagenes: ['./img/trajes/traje1.jpg', './img/trajes/traje1_1.jpg', './img/trajes/traje1_2.jpg'],
+                imagenes: ['./img/trajes.jpg', './img/trajes.jpg', './img/trajes.jpg'],
                 paypalLink: 'https://paypal.me/pushpuppy/5.99usd',
             },
             {
@@ -256,7 +256,7 @@ const datos = {
                 descripcion: 'Un traje casual para un look moderno y chic. Ideal para una tarde de paseo o una visita al café.',
                 tallas: ['XS', 'S', 'M', 'L', 'XL'],
                 video: 'https://youtu.be/zD1kX_3Bq1k',
-                imagenes: ['./img/trajes/traje2.jpg', './img/trajes/traje2_1.jpg', './img/trajes/traje2_2.jpg'],
+                imagenes: ['./img/trajes.jpg', './img/trajes.jpg', './img/trajes.jpg'],
                 paypalLink: 'https://paypal.me/pushpuppy/5.99usd',
             },
             {
@@ -266,7 +266,7 @@ const datos = {
                 descripcion: 'Traje de fiesta con un estilo único y sofisticado. Ideal para cualquier celebración.',
                 tallas: ['XS', 'S', 'M', 'L', 'XL'],
                 video: 'https://youtu.be/zD1kX_3Bq1k',
-                imagenes: ['./img/trajes/traje3.jpg', './img/trajes/traje3_1.jpg', './img/trajes/traje3_2.jpg'],
+                imagenes: ['./img/trajes.jpg', './img/trajes.jpg', './img/trajes.jpg'],
                 paypalLink: 'https://paypal.me/pushpuppy/5.99usd',
             }
         ],
@@ -278,7 +278,7 @@ const datos = {
                 descripcion: 'La pijama perfecta para tu mascota. Enterizo cómodo y suave, ideal para una noche de descanso.',
                 tallas: ['XS', 'S', 'M', 'L', 'XL'],
                 video: 'https://youtu.be/zD1kX_3Bq1k',
-                imagenes: ['./img/enterizos/enterizo1.jpg', './img/enterizos/enterizo1_1.jpg', './img/enterizos/enterizo1_2.jpg'],
+                imagenes: ['./img/enterizos.jpg', './img/enterizos.jpg', './img/enterizos.jpg'],
                 paypalLink: 'https://paypal.me/pushpuppy/5.99usd',
             },
             {
@@ -288,7 +288,7 @@ const datos = {
                 descripcion: 'Enterizo impermeable para proteger a tu mascota de la lluvia y la humedad. Un diseño práctico y seguro para los días lluviosos.',
                 tallas: ['XS', 'S', 'M', 'L', 'XL'],
                 video: 'https://youtu.be/zD1kX_3Bq1k',
-                imagenes: ['./img/enterizos/enterizo2.jpg', './img/enterizos/enterizo2_1.jpg', './img/enterizos/enterizo2_2.jpg'],
+                imagenes: ['./img/enterizos.jpg', './img/enterizos.jpg', './img/enterizos.jpg'],
                 paypalLink: 'https://paypal.me/pushpuppy/5.99usd',
             }
         ],
@@ -300,7 +300,7 @@ const datos = {
                 descripcion: 'Un chaleco con un diseño a cuadros clásico, ideal para un look casual y elegante. El mejor amigo del clima frío.',
                 tallas: ['XS', 'S', 'M', 'L', 'XL'],
                 video: 'https://youtu.be/zD1kX_3Bq1k',
-                imagenes: ['./img/chalecos/chaleco1.jpg', './img/chalecos/chaleco1_1.jpg', './img/chalecos/chaleco1_2.jpg'],
+                imagenes: ['./img/chalecos.jpg', './img/chalecos.jpg', './img/chalecos.jpg'],
                 paypalLink: 'https://paypal.me/pushpuppy/5.99usd',
             },
             {
@@ -310,7 +310,7 @@ const datos = {
                 descripcion: 'Chaleco elegante con detalles únicos, para que tu mascota se vea sofisticada en cualquier ocasión. Un chaleco suave y cómodo, ideal para los días fríos.',
                 tallas: ['XS', 'S', 'M', 'L', 'XL'],
                 video: 'https://youtu.be/zD1kX_3Bq1k',
-                imagenes: ['./img/chalecos/chaleco2.jpg', './img/chalecos/chaleco2_1.jpg', './img/chalecos/chaleco2_2.jpg'],
+                imagenes: ['./img/chalecos.jpg', './img/chalecos.jpg', './img/chalecos.jpg'],
                 paypalLink: 'https://paypal.me/pushpuppy/5.99usd',
             }
         ],
@@ -322,7 +322,7 @@ const datos = {
                 descripcion: 'Abrigo para invierno con un forro de peluche, ideal para mantener a tu mascota protegida del frío extremo. Que nada impida salir a pasear.',
                 tallas: ['XS', 'S', 'M', 'L', 'XL'],
                 video: 'https://youtu.be/zD1kX_3Bq1k',
-                imagenes: ['./img/abrigos/abrigo1.jpg', './img/abrigos/abrigo1_1.jpg', './img/abrigos/abrigo1_2.jpg'],
+                imagenes: ['./img/abrigo.jpg', './img/abrigo.jpg', './img/abrigo.jpg'],
                 paypalLink: 'https://paypal.me/pushpuppy/5.99usd',
             }
         ]
@@ -446,6 +446,7 @@ function mostrarTodosMoldes() {
             divProducto.className = `producto ${colorClase}`;
             divProducto.onclick = () => mostrarTipos(tipo);
 
+            // Se toma la primera imagen de la lista de imágenes para mostrarla en la vista principal
             divProducto.innerHTML = `
                 <img src="${primerProducto.imagenes[0]}" alt="${tipoCapitalizado}">
                 <div>
@@ -509,12 +510,12 @@ function crearFichaProducto(producto) {
             <div class="modal-tallas-lista">${producto.tallas.join(', ')}</div>
             <div class="titulo-video">Ver Video (Youtube)</div>
             <a href="${producto.video}" class="modal-video" target="_blank" onclick="fbq('track', 'watch_video', {content_name: '${producto.nombre}'});">
-                <img src="./img/youtube_icon.png" alt="Youtube" width="24" height="24">
+                <img src="./img/youtube.png" alt="Youtube" width="24" height="24">
                 <span> Ver Instrucciones</span>
             </a>
             <div class="titulo-pagos">Formas de Pago</div>
             <a href="${producto.paypalLink}" class="modal-paypal-btn" target="_blank" onclick="fbq('track', 'AddToCart', {content_name: '${producto.nombre}', value: '${producto.precio}', currency: 'USD'}); gtag('event', 'add_to_cart', { 'currency': 'USD', 'value': ${producto.precio}, 'items': [{ 'item_name': '${producto.nombre}', 'item_id': '${producto.id}' }] });">
-                <img src="./img/paypal-logo.png" alt="Pagar con PayPal" class="modal-paypal-logo">
+                <img src="./img/logo_paypal4.png" alt="Pagar con PayPal" class="modal-paypal-logo">
             </a>
             <button class="modal-transferencia-btn" onclick="toggleTransferenciaInfo(this)">Transferencia Bancaria (ver datos)</button>
             <div class="transferencia-info" style="display: none;">
