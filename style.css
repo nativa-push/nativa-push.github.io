@@ -431,7 +431,8 @@ nav {
 }
 
 .modal-bancopichincha-logo {
-    max-height: 40px; /* Ajusta el tamaño de tu logo aquí */
+    max-height: 40px; /* Limita la altura del logo */
+    max-width: 150px; /* Limita el ancho del logo */
     width: auto;
     object-fit: contain;
 }
