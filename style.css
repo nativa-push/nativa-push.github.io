@@ -430,11 +430,10 @@ nav {
     object-fit: contain;
 }
 
-/* Regla actualizada para el logo del Banco Pichincha */
 .modal-bancopichincha-logo {
-    max-height: 45px;
-    max-width: 170px;
-    width: auto;
+    max-height: 45px !important;
+    max-width: 170px !important;
+    width: auto !important;
     object-fit: contain;
 }
 
