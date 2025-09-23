@@ -320,17 +320,14 @@ function crearFichaProducto(producto) {
             <div class="titulo-video">Tutorial para Fabricación</div>
             <a href="${producto.video}" class="modal-video" target="_blank" onclick="fbq('track', 'watch_video', {content_name: '${producto.nombre}'});">
                 <img src="./img/logo_youtube_blanco.png" alt="Youtube" class="modal-youtube-logo">
-                Ver Tutorial
             </a>
 
             <div class="titulo-pagos">Formas de Pago</div>
             <a href="${producto.paypalLink}" class="modal-paypal-btn" target="_blank" onclick="fbq('track', 'AddToCart', {content_name: '${producto.nombre}', value: '${producto.precio}', currency: 'USD'}); gtag('event', 'add_to_cart', { 'currency': 'USD', 'value': ${producto.precio}, 'items': [{ 'item_name': '${producto.nombre}', 'item_id': '${producto.id}' }] });">
                 <img src="./img/logo_paypal.png" alt="Pagar con PayPal" class="modal-paypal-logo">
-                Pagar con PayPal
             </a>
             <a href="javascript:void(0);" class="modal-bancopichincha-btn" onclick="toggleTransferenciaInfo(this); return false;">
                 <img src="./img/logo_bancopichincha.png" alt="Transferencia Bancaria" class="modal-bancopichincha-logo">
-                Transferencia
             </a>
             <div class="transferencia-info" style="display: none;">
                 <p>
@@ -351,6 +348,7 @@ function crearFichaProducto(producto) {
 
     return modalFicha;
 }
+
 
 function cambiarImagenPrincipal(miniatura) {
     const imgPrincipal = miniatura.closest('.modal-ficha-producto').querySelector('.modal-img-principal');
