@@ -1,7 +1,6 @@
 /* ======================================
  * Estilos Generales
- * ======================================
- */
+ * ====================================== */
 * {
     margin: 0;
     padding: 0;
@@ -15,11 +14,9 @@ body {
     line-height: 1.6;
 }
 
-/*
- * ======================================
+/* ======================================
  * Encabezado
- * ======================================
- */
+ * ====================================== */
 header {
     background-color: #fff;
     padding: 20px;
@@ -41,11 +38,9 @@ header {
     width: auto;
 }
 
-/*
- * ======================================
+/* ======================================
  * Barra de Navegación (Menú)
- * ======================================
- */
+ * ====================================== */
 nav {
     background-color: rgba(212, 211, 255, 0.8);
     padding: 10px 0;
@@ -84,11 +79,9 @@ nav {
     color: white;
 }
 
-/*
- * ======================================
+/* ======================================
  * Submenú de Categorías
- * ======================================
- */
+ * ====================================== */
 .menu-principal .submenu {
     display: none;
     position: absolute;
@@ -123,11 +116,9 @@ nav {
     border-radius: 6px;
 }
 
-/*
- * ======================================
+/* ======================================
  * Secciones de Información y Productos
- * ======================================
- */
+ * ====================================== */
 .principal {
     padding: 20px;
     max-width: 1400px;
@@ -149,11 +140,9 @@ nav {
     margin-bottom: 20px;
 }
 
-/*
- * ======================================
+/* ======================================
  * Galería de Productos (Recuadros)
- * ======================================
- */
+ * ====================================== */
 .productos {
     display: flex;
     flex-wrap: wrap;
@@ -225,11 +214,9 @@ nav {
     text-align: center;
 }
 
-/*
- * ======================================
+/* ======================================
  * Sección de Detalles de Productos
- * ======================================
- */
+ * ====================================== */
 #detalleProducto {
     display: flex;
     flex-direction: column;
@@ -342,11 +329,9 @@ nav {
     margin-bottom: 20px;
 }
 
-/*
- * ======================================
+/* ======================================
  * Botones y Logos
- * ======================================
- */
+ * ====================================== */
 .volver-boton {
     margin-top: 20px;
     background-color: rgba(246, 208, 255, 0.8);
@@ -368,11 +353,11 @@ nav {
 
 .modal-video,
 .modal-paypal-btn,
-.modal-transferencia-btn {
+.modal-bancopichincha-btn {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 80%;
+    width: 200px; /* tamaño fijo igual que PayPal */
     height: 56px;
     padding: 0;
     margin: 10px auto;
@@ -397,45 +382,39 @@ nav {
     transform: translateY(-2px);
 }
 
-.modal-paypal-btn,
-.modal-transferencia-btn {
+.modal-paypal-btn {
     background-color: #FFC439;
     color: #111;
 }
 
-.modal-paypal-btn:hover,
-.modal-transferencia-btn:hover {
+.modal-paypal-btn:hover {
+    background-color: #e6b233;
+    transform: translateY(-2px);
+}
+
+.modal-bancopichincha-btn {
+    background-color: #FFC439;
+    color: #111;
+}
+
+.modal-bancopichincha-btn:hover {
     background-color: #e6b233;
     transform: translateY(-2px);
 }
 
 /* Oculta el texto del botón de transferencia para mostrar solo el logo */
-.modal-transferencia-btn span {
+.modal-bancopichincha-btn span {
     display: none;
 }
 
 /* Estilos para los logos */
 .modal-youtube-logo,
-.modal-paypal-logo {
-    margin-right: 8px; /* Espacio entre el logo y el texto */
-}
-
-.modal-youtube-logo {
-    max-height: 50px;
-    width: auto;
-    object-fit: contain;
-}
-
-.modal-paypal-logo {
-    max-height: 32px;
-    width: auto;
-    object-fit: contain;
-}
-
+.modal-paypal-logo,
 .modal-bancopichincha-logo {
     max-height: 45px;
     width: auto;
     object-fit: contain;
+    margin-right: 8px;
 }
 
 .titulo-pagos, .titulo-video {
@@ -444,10 +423,7 @@ nav {
     font-size: 1rem;
 }
 
-/* ===================================================
-   STYLES ADDED: contenedor info
-   =================================================== */
-
+/* Contenedor info */
 .transferencia-info {
     background: linear-gradient(180deg, #fffaf0 0%, #fff2da 100%);
     border: 1px solid rgba(255, 196, 77, 0.35);
@@ -481,11 +457,9 @@ nav {
     background: #1ebe5d;
 }
 
-/*
- * ======================================
+/* ======================================
  * Pie de Página
- * ======================================
- */
+ * ====================================== */
 footer {
     text-align: center;
     padding: 20px;
@@ -513,11 +487,9 @@ footer img {
     vertical-align: middle;
 }
 
-/*
- * ======================================
+/* ======================================
  * Responsive Design
- * ======================================
- */
+ * ====================================== */
 @media (max-width: 768px) {
     .menu-principal ul {
         flex-direction: column;
@@ -549,6 +521,12 @@ footer img {
     .modal-ficha-der h2 {
         font-size: 1.5rem;
     }
+    
+    .modal-video,
+    .modal-paypal-btn,
+    .modal-bancopichincha-btn {
+        width: 100%;
+    }
 }
 
 @media (max-width: 480px) {
@@ -563,7 +541,8 @@ footer img {
     }
     
     .modal-video,
-    .modal-paypal-btn {
+    .modal-paypal-btn,
+    .modal-bancopichincha-btn {
         width: 100%;
     }
 }
