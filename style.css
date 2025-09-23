@@ -379,7 +379,7 @@ nav {
 }
 
 .modal-video {
-    background-color: hwb(336 57% 9%);
+    background-color: #ff0000;  /*Color rojo de youtube*/
     color: #fff;
 }
 
