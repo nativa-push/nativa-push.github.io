@@ -408,13 +408,22 @@ nav {
 }
 
 /* Estilos para los logos */
-.modal-youtube-logo,
-.modal-paypal-logo,
+.modal-youtube-logo {
+    max-height: 50px;
+    width: auto;
+    object-fit: contain;
+}
+
+.modal-paypal-logo {
+    max-height: 32px;
+    width: auto;
+    object-fit: contain;
+}
+
 .modal-bancopichincha-logo {
     max-height: 45px;
     width: auto;
     object-fit: contain;
-    margin-right: 8px;
 }
 
 .titulo-pagos, .titulo-video {
