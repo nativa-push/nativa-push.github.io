@@ -569,3 +569,8 @@ footer img {
     margin: 10px 0 5px 0;
     font-size: 1rem;
 }
+.modal-youtube-logo {
+    width: 80px; /* Puedes ajustar este valor si quieres un tamaño diferente */
+    height: auto;
+    vertical-align: middle;
+}
