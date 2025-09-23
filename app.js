@@ -327,7 +327,7 @@ function crearFichaProducto(producto) {
             <a href="${producto.paypalLink}" class="modal-paypal-btn" target="_blank" onclick="fbq('track', 'AddToCart', {content_name: '${producto.nombre}', value: '${producto.precio}', currency: 'USD'}); gtag('event', 'add_to_cart', { 'currency': 'USD', 'value': ${producto.precio}, 'items': [{ 'item_name': '${producto.nombre}', 'item_id': '${producto.id}' }] });">
                 <img src="./img/logo_paypal.png" alt="Pagar con PayPal" class="modal-paypal-logo">
             </a>
-            <a href="javascript:void(0);" class="modal-transferencia-btn" onclick="toggleTransferenciaInfo(this); return false;">
+            <a href="javascript:void(0);" class="modal-bancopichincha-btn" onclick="toggleTransferenciaInfo(this); return false;">
                 <img src="./img/logo_bancopichincha.png" alt="Transferencia Bancaria" class="modal-bancopichincha-logo">
             </a>
             <div class="transferencia-info" style="display: none;">
