@@ -178,8 +178,53 @@
         </section>
 
         <div id="detalleProducto"></div>
-        <div id="infoContainer"></div>
+        <div id="infoContainer">
+            <button class="volver-boton" onclick="volver()">Volver</button>
+            <div id="detalleProducto-grid-container">
+                <div id="detalleProducto-ficha-izq">
+                    <img id="modal-img-principal" src="img/saco.jpg" alt="Imagen del producto principal">
+                    <div id="modal-miniaturas" class="modal-miniaturas">
+                        <img src="img/saco1.jpg" alt="Miniatura del producto 1" class="modal-miniatura">
+                        <img src="img/saco2.jpg" alt="Miniatura del producto 2" class="modal-miniatura">
+                        <img src="img/saco3.jpg" alt="Miniatura del producto 3" class="modal-miniatura">
+                    </div>
+                </div>
+                <div id="detalleProducto-ficha-der">
+                    <h2 id="modal-titulo">Saco Moderno</h2>
+                    <p id="modal-precio">Precio: $19.99 USD</p>
+                    <p id="modal-desc">Saco con capucha, un diseño ideal para proteger a tu mascota del frío y la lluvia. Confeccionado con tela polar y acabados de alta calidad para un ajuste cómodo. Ideal para un perro o un gato.</p>
+                    <p class="modal-tallas-texto">Tallas disponibles:</p>
+                    <p class="modal-tallas-lista" id="tallas-disponibles">XS, S, M, L, XL</p>
 
+                    <p class="titulo-video">Ver Video (Youtube)</p>
+                    <a href="https://www.youtube.com/watch?v=tu_video_aqui" target="_blank" class="modal-video">
+                        <img src="img/youtube.png" alt="Logo de YouTube" class="modal-youtube-logo">
+                        <span>YouTube | DIY</span>
+                    </a>
+
+                    <p class="titulo-pagos">Formas de Pago</p>
+                    <a href="#" class="modal-paypal-btn">
+                        <img src="img/logo_paypal.png" alt="Logo de PayPal" class="modal-paypal-logo">
+                        <span>PayPal | 💳</span>
+                    </a>
+
+                    <a href="#" id="transferenciaBtn" class="modal-transferencia-btn">
+                        <img src="img/logo_pichincha.png" alt="Logo Banco Pichincha" class="modal-bancopichincha-logo">
+                        <span style="display: none;">Transferencia Bancaria (ver datos)</span>
+                    </a>
+
+                    <div class="transferencia-info">
+                        <p>Realiza una transferencia bancaria a la siguiente cuenta:</p>
+                        <p><strong>Número de Cuenta:</strong> 1234567890</p>
+                        <p><strong>Banco:</strong> Banco Pichincha</p>
+                        <p><strong>Nombre del Titular:</strong> PetShop EMN</p>
+                        <p><strong>Cédula:</strong> 1712345678</p>
+                        <p>Envía tu comprobante a nuestro WhatsApp para finalizar la compra.</p>
+                        <a href="https://wa.me/593987654321?text=He%20realizado%20la%20transferencia%20para%20mi%20compra." target="_blank">Enviar Comprobante por WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 
     <footer>
