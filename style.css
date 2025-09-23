@@ -368,7 +368,7 @@ nav {
 
 .modal-video,
 .modal-paypal-btn,
-.modal-bancopichincha-btn {
+.modal-transferencia-btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -398,22 +398,12 @@ nav {
 }
 
 .modal-paypal-btn,
-.modal-bancopichincha-btn {
-    background-color: #FFC439;
-    color: #111;
-}
-
-.modal-paypal-btn:hover,
-.modal-bancopichincha-btn:hover {
-    background-color: #e6b233;
-    transform: translateY(-2px);
-}
-
 .modal-transferencia-btn {
     background-color: #FFC439;
     color: #111;
 }
 
+.modal-paypal-btn:hover,
 .modal-transferencia-btn:hover {
     background-color: #e6b233;
     transform: translateY(-2px);
@@ -432,7 +422,7 @@ nav {
     object-fit: contain;
 }
 
-.modal-bancopichincha-logo {
+.modal-transferencia-btn .modal-bancopichincha-logo {
     max-height: 45px;
     max-width: 170px;
     width: auto;
