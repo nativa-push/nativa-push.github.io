@@ -2,17 +2,17 @@
 // Se organiza por categoría (sacos, chompas, etc.) y cada categoría es un array de productos.
 const productos = {
     // Array para los productos de la categoría 'sacos'.
-    camiseta: [{
-        nombre: "Molde de Camiseta - Modelo A",
+    sacos: [{
+        nombre: "Molde de Sacos - Modelo A",
         // Array de URLs de imágenes para el producto, incluyendo miniaturas.
         img: ["img/chompa.jpg", "img/vestido.jpg"],
         desc: "Descripción detallada del Modelo A, con sus características principales y un estilo funcional.",
         // URL del video de YouTube que muestra la confección.
-        video: "https://www.youtube.com/",
+        video: "https://www.youtube.com/watch?v=video_modelo_a",
         // Objeto con la configuración para el botón de pago (ej. PayPal).
         pago: {
             action: "https://www.paypal.com/ncp/payment/ZWESEN2AYW4P8", // URL del formulario de pago.
-            item_name: "Camiseta Básica, con corbatín - Modelo A", // Nombre del producto para el pago.
+            item_name: "Molde de Sacos - Modelo A", // Nombre del producto para el pago.
             amount: "4.75" // Precio del producto.
         }
     }/*, {
