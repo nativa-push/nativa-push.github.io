@@ -316,27 +316,22 @@ function crearFichaProducto(producto) {
             <h2>${producto.nombre}</h2>
             <div class="modal-precio">Precio: $${producto.precio} USD</div>
             <div class="modal-desc">${producto.descripcion}</div>
-            <div class="modal-tallas-texto">Tallas disponibles:</div>
-            <div class="modal-tallas-lista">${producto.tallas.join(', ')}</div>
 
-            <!-- BOTONES -->
-            <div class="titulo-pagos">Formas de Pago</div>
-
-            <!-- Botón YouTube -->
+            <div class="titulo-video">Tutorial para Fabricación</div>
             <a href="${producto.video}" class="modal-video" target="_blank" onclick="fbq('track', 'watch_video', {content_name: '${producto.nombre}'});">
                 <img src="./img/logo_youtube_blanco.png" alt="Youtube" class="modal-youtube-logo">
+                Ver Tutorial
             </a>
 
-            <!-- Botón PayPal -->
+            <div class="titulo-pagos">Formas de Pago</div>
             <a href="${producto.paypalLink}" class="modal-paypal-btn" target="_blank" onclick="fbq('track', 'AddToCart', {content_name: '${producto.nombre}', value: '${producto.precio}', currency: 'USD'}); gtag('event', 'add_to_cart', { 'currency': 'USD', 'value': ${producto.precio}, 'items': [{ 'item_name': '${producto.nombre}', 'item_id': '${producto.id}' }] });">
                 <img src="./img/logo_paypal.png" alt="Pagar con PayPal" class="modal-paypal-logo">
+                Pagar con PayPal
             </a>
-
-            <!-- Botón Banco Pichincha -->
             <a href="javascript:void(0);" class="modal-bancopichincha-btn" onclick="toggleTransferenciaInfo(this); return false;">
                 <img src="./img/logo_bancopichincha.png" alt="Transferencia Bancaria" class="modal-bancopichincha-logo">
+                Transferencia
             </a>
-
             <div class="transferencia-info" style="display: none;">
                 <p>
                     <strong>Datos de la Cuenta:</strong><br>
@@ -349,7 +344,7 @@ function crearFichaProducto(producto) {
                 <p>
                     Una vez realizada la transferencia, por favor envía una foto del comprobante de pago a nuestro WhatsApp.
                 </p>
-                <a href="https://wa.me/593988604752?text=He%20realizado%20el%20pago%20de%$${producto.precio}%20USD%20para%20el%20molde%20de%20${producto.nombre}%20y%20te%20env%C3%ADo%20el%20comprobante." target="_blank" onclick="fbq('track', 'StartCheckout', {content_name: 'Transferencia ${producto.nombre}', value: '${producto.precio}', currency: 'USD'});">Enviar Comprobante por WhatsApp</a>
+                <a href="https://wa.me/593988604752?text=He%20realizado%20el%20pago%20de%$${producto.precio}%20USD%20para%20el%20molde%20de%${producto.nombre}%20y%20te%20envío%20el%20comprobante." target="_blank" onclick="fbq('track', 'StartCheckout', {content_name: 'Transferencia ${producto.nombre}', value: '${producto.precio}', currency: 'USD'});">Enviar Comprobante por WhatsApp</a>
             </div>
         </div>
     `;
