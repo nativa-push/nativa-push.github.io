@@ -409,13 +409,13 @@ nav {
 
 /* Estilos para los logos */
 .modal-youtube-logo {
-    max-height: 50px;
+    max-height: 32px;
     width: auto;
     object-fit: contain;
 }
 
 .modal-paypal-logo {
-    max-height: 32px;
+    max-height: 25px;
     width: auto;
     object-fit: contain;
 }
