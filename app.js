@@ -320,7 +320,7 @@ function crearFichaProducto(producto) {
             <div class="modal-tallas-lista">${producto.tallas.join(', ')}</div>
             <div class="titulo-video">Ver Video (Youtube)</div>
             <a href="${producto.video}" class="modal-video" target="_blank" onclick="fbq('track', 'watch_video', {content_name: '${producto.nombre}'});">
-                <img src="./img/youtube.png" alt="Youtube" width="24" height="24">
+                <img src="./img/logo_youtube.png" alt="Youtube" width="24" height="24">
                 <span> Ver Instrucciones</span>
             </a>
             <div class="titulo-pagos">Formas de Pago</div>
