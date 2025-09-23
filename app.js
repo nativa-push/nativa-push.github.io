@@ -15,27 +15,7 @@ const productos = {
             item_name: "Molde de Sacos - Modelo A", // Nombre del producto para el pago.
             amount: "4.75" // Precio del producto.
         }
-    }/*, {
-    nombre: "Molde de Sacos - Modelo B",
-    img: ["img/sacos_modelo_b_1.jpg", "img/sacos_modelo_b_2.jpg"],
-    desc: "Descripción detallada del Modelo B...",
-    video: "...",
-    pago: {
-        action: "#",
-        item_name: "Molde de Sacos - Modelo B",
-        amount: "6.50"
-    }
-}, {
-    nombre: "Molde de Sacos - Modelo C",
-    img: ["img/sacos_modelo_c_1.jpg"],
-    desc: "Descripción detallada del Modelo C...",
-    video: "...",
-    pago: {
-        action: "#",
-        item_name: "Molde de Sacos - Modelo C",
-        amount: "7.00"
-    }
-} */],
+    }]
     // Array para los productos de la categoría 'chompas'.
     chompas: [{
         nombre: "Molde de Chompas - Modelo 1",
