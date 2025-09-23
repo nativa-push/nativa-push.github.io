@@ -399,7 +399,7 @@ nav {
 }
 
 .modal-paypal-logo {
-    max-height: 32px;
+    max-height: 50px;
     width: auto;
     display: block;
     object-fit: contain;
