@@ -422,9 +422,10 @@ nav {
     object-fit: contain;
 }
 
-.modal-bancopichincha-logo {
-    max-height: 45px;
-    max-width: 170px;
+/* MODIFICACIÓN CLAVE AQUÍ: */
+.modal-transferencia-btn .modal-bancopichincha-logo {
+    max-height: 45px; /* Ajusta este valor si necesitas que el logo sea más grande o pequeño */
+    max-width: 170px; /* Ajusta este valor si necesitas que el logo sea más ancho o estrecho */
     width: auto;
     object-fit: contain;
 }
