@@ -187,10 +187,10 @@ function crearFichaProducto(producto) {
                 <p>
                     <strong>Datos de la Cuenta:</strong><br>
                     Banco Pichincha<br>
-                    Cuenta de Ahorros 1234567890<br>
-                    Nombre: Push Puppy S.A.<br>
-                    C.I.: 1712345678<br>
-                    Correo: info@pushpuppy.com
+                    Cuenta de Ahorros 2205710105<br>
+                    Nombre: Lourdes González<br>
+                    C.I.: 0801047556<br>
+                    Correo: nativa.push@gmail.com
                 </p>
                 <a href="https://wa.me/593988604752" target="_blank">Enviar Comprobante por WhatsApp</a>
             </div>
