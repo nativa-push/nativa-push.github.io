@@ -12,7 +12,7 @@ const datos = {
                 descripcion: 'Molde de camiseta suave y ligera, ideal para los días calurosos. Permite que tu mascota se sienta cómoda y fresca durante todo el día.',
                 tallas: ['XXS','XS', 'S', 'M', 'L', 'XL', 'XXL'],
                 video: 'https://youtu.be/dlGSlN5rvR0?si=ekAoGgMQOjg-R4Zj',
-                imagenes: ['./img/camiseta_m1.jpg', './img/camiseta.jpg', './img/camiseta.jpg'],
+                imagenes: ['./img/camiseta_m1.jpg'],
                 paypalLink: 'https://www.paypal.com/ncp/payment/ZWESEN2AYW4P8',
             },
         ],
@@ -24,7 +24,7 @@ const datos = {
                 descripcion: 'Disfraz divertido y colorido para que tu mascota sea la estrella en Halloween o cualquier fiesta de disfraces.',
                 tallas: ['XXS','XS', 'S', 'M', 'L', 'XL', 'XXL'],
                 video: 'https://youtu.be/zD1kX_3Bq1k',
-                imagenes: ['./img/mujer_maravilla.jpg', './img/mujer_maravilla.jpg', './img/mujer_maravilla.jpg'],
+                imagenes: ['./img/mujer_maravilla.jpg'],
                 paypalLink: 'https://www.paypal.com/ncp/payment/HXE3F3VYQCCJW',
             },
         ]
