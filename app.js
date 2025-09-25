@@ -13,7 +13,7 @@ const datos = {
                 tallas: ['XS', 'S', 'M', 'L', 'XL'],
                 video: 'https://youtu.be/zD1kX_3Bq1k',
                 imagenes: ['./img/saco.jpg', './img/saco.jpg', './img/saco.jpg'],
-                paypalLink: 'https://paypal.me/pushpuppy/5.99usd',
+                paypalLink: 'https://www.paypal.com/ncp/payment/ZWESEN2AYW4P8',
             },
         ],
         chompas: [
