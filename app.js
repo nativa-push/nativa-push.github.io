@@ -8,7 +8,7 @@ const datos = {
             {
                 id: 'camiseta1',
                 nombre: 'Camiseta Básica',
-                precio: '4.75',
+                precio: '4.50',
                 descripcion: 'Molde de camiseta suave y ligera, ideal para los días calurosos. Permite que tu mascota se sienta cómoda y fresca durante todo el día.',
                 tallas: ['XXS','XS', 'S', 'M', 'L', 'XL', 'XXL'],
                 video: 'https://youtu.be/dlGSlN5rvR0?si=ekAoGgMQOjg-R4Zj',
