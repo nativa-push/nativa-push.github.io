@@ -20,12 +20,12 @@ const datos = {
             {
                 id: 'disfraz1',
                 nombre: 'Disfraz Mujer Maravilla',
-                precio: '5.75',
+                precio: '5.50',
                 descripcion: 'Disfraz divertido y colorido para que tu mascota sea la estrella en Halloween o cualquier fiesta de disfraces.',
                 tallas: ['XXS','XS', 'S', 'M', 'L', 'XL', 'XXL'],
                 video: 'https://youtu.be/zD1kX_3Bq1k',
                 imagenes: ['./img/mujer_maravilla.jpg', './img/mujer_maravilla.jpg', './img/mujer_maravilla.jpg'],
-                paypalLink: 'https://paypal.me/pushpuppy/5.99usd',
+                paypalLink: 'https://www.paypal.com/ncp/payment/HXE3F3VYQCCJW',
             },
         ]
     },
