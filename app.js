@@ -192,7 +192,7 @@ function crearFichaProducto(producto) {
                     C.I.: 0801047556<br>
                     Correo: nativa.push@gmail.com
                 </p>
-                <a href="https://wa.me/593988604752" target="_blank">Enviar Comprobante por WhatsApp</a>
+                <a href="https://wa.me/593964165506" target="_blank">Enviar Comprobante por WhatsApp</a>
             </div>
         </div>
     `;
