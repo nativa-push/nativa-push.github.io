@@ -68,9 +68,9 @@ const datos = {
             <h2>Contáctanos</h2>
             <p>¿Tienes alguna pregunta, sugerencia o simplemente quieres saludar? ¡Nos encantaría saber de ti!</p>
             <ul>
-                <li><strong>Correo:</strong> <a href="mailto:info@pushpuppy.com">info@pushpuppy.com</a></li>
+                <li><strong>Correo:</strong> <a href="mailto:nativa.push@gmail.com">nativa.push@gmail.com</a></li>
                 <li><strong>Redes sociales:</strong> Facebook, Instagram, YouTube y TikTok como <strong>Push Puppy</strong>.</li>
-                <li><strong>WhatsApp:</strong> <a href="https://wa.me/message/TU_NUMERO" target="_blank">Envíanos un mensaje</a></li>
+                <li><strong>WhatsApp:</strong> <a href="https://wa.me/message/593964165506" target="_blank">Envíanos un mensaje</a></li>
             </ul>
         </div>
     `
